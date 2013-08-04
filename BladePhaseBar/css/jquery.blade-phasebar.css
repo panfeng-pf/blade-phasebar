@@ -1,0 +1,24 @@
+/*!
+ * Blade Phase Bar - v1.0.0 - 2013-07-12
+ * jQuery Plug-in
+ * http://github.com/panfeng-pf/blade-phasebar
+ * Copyright (c) 2013 Blade Pan; Licensed BSD
+ * Dependency: jQuery (test with jQuery v1.9.1)
+ */
+div.phasebar {
+	position: relative;
+}
+div.phasebar hr.line {
+	position: absolute;
+	border: 0;
+	margin: 0;
+}
+div.phasebar div.phase {
+	position: absolute;
+	cursor: pointer;
+	text-align: center;
+}
+div.phasebar div.phase div.spot {
+	margin-right: auto;
+	margin-left: auto;
+}
