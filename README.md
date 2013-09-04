@@ -4,6 +4,10 @@ Phase Bar, a jQuery plugin.<br/>
 Show specified phases in 1 horizontal bar, and each phase spot has its own status.<br/>
 Demo is in package.
 
+Demo Snapshot
+--------------
+![github](http://img2.ph.126.net/8sEhl2vcVpk7DMeWcRY-qQ==/2856126588783212615.png "blade-phasebar")
+
 How to Use
 --------------
 ### Import CSS
