@@ -8,17 +8,17 @@
 div.phasebar {
 	position: relative;
 }
-div.phasebar hr.line {
+div.phasebar > hr.line {
 	position: absolute;
 	border: 0;
 	margin: 0;
 }
-div.phasebar div.phase {
+div.phasebar > div.phase {
 	position: absolute;
 	cursor: pointer;
 	text-align: center;
 }
-div.phasebar div.phase div.spot {
+div.phasebar > div.phase > div.spot {
 	margin-right: auto;
 	margin-left: auto;
 }
