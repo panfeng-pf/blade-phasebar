@@ -6,7 +6,7 @@ Demo is in package.
 
 Demo Snapshot
 --------------
-![github](http://img2.ph.126.net/8sEhl2vcVpk7DMeWcRY-qQ==/2856126588783212615.png "blade-phasebar")
+![github](https://raw.githubusercontent.com/panfeng-pf/blade-phasebar/master/snapshot/examples.png "blade-phasebar")
 
 How to Use
 --------------
