@@ -27,7 +27,7 @@ How to Use
   $(function() {
 	$('selector').bladePhaseBar();
 	// or $('selector').bladePhaseBar({option});
-  }
+  });
 </script>
 ```
 
