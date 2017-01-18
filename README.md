@@ -11,21 +11,28 @@ Demo Snapshot
 How to Use
 --------------
 ### Import CSS
+```html
     <link rel="stylesheet" href="css/jquery.blade-phasebar.css">
+```
 
 ### Import JS
+```html
     <script src="dependency/jquery-1.9.1.min.js"></script>
     <script src="js/jquery.blade-phasebar.js"></script>
+```
 
 ### Initial phase bar
+```html
     <script type="text/javascript">
       $(function() {
         $('selector').bladePhaseBar();
         // or $('selector').bladePhaseBar({option});
       }
     </script>
+```
 
 ### Option Description
+```javascript
     {
       phaseSpacing: 100,        //length between 2 phases, unit: px, default: 100
       lineHeight: 2,            //height of connected line between 2 phases, unit: px
@@ -36,16 +43,20 @@ How to Use
       colorDoing: 'lightgreen', //color for 'doing' spot, default: 'lightgreen'
       colorFail: 'red'          //color for 'fail' spot, default: 'red'
     }
+```
 
 ### line style
+```css
     /*for element type*/
     hr.line
     
     /*for status*/
     hr.line-undo
     hr.line-done
+```
 
 ### Phase spot style
+```css
     /*for element type*/
     div.spot
     
@@ -59,9 +70,11 @@ How to Use
     div.spot-rounded
     div.spot-capsule
     div.spot-ellipse
+```
 
 Example HTML
 --------------
+```html
     <html>
     
     <head>
@@ -101,3 +114,4 @@ Example HTML
     </script>
     
     </html>
+```
